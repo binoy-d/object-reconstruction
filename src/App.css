@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+.canvas-container{
+  margin-top:2em;
+  margin-left:10%;
+  width:80%;
+  height:50vh;
+}
+
+body, html{
+  background-color: #080705;
+}
+
+.title{
+  margin-top:1em;
+  font-size: 4em;
+  font-weight:bolder;
+  color:white;
+
+}
