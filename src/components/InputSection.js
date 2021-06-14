@@ -19,11 +19,11 @@ const LightScanCarousel = ({ grabNum, camNum, start}) => {
       if(grabNum === 1){
           if(camNum === 0){
             setImages(
-                importAll(require.context("../img/grab1/frame_c0",false,/\.png$/))
+                importAll(require.context("../img/grab1/frame_c0",false,/\.jpg$/))
               );
           }else{
             setImages(
-                importAll(require.context("../img/grab1/frame_c1",false,/\.png$/))
+                importAll(require.context("../img/grab1/frame_c1",false,/\.jpg$/))
               );
           }
       }
