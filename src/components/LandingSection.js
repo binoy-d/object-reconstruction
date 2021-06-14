@@ -42,6 +42,7 @@ export default function LandingSection(){
                 </div>
                 <div className="row">
                     <div className="col text-center">
+                        <p className="text">Note: 3D Model may take a while to load</p>
                         <ModelViewer />
                     </div>
                 </div>
